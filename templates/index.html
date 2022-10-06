@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TecBlog</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='home/style.css')}}">
+</head>
+
+<body>
+  <header>
+    <a href="#">
+      <div>
+        <span class="tec">Tec</span><span class="blog">Blog</span>
+      </div>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Jogos</a></li>
+        <li><a href="#">Celulares</a></li>
+        <li><a href="#">Informática</a></li>
+        <li><a href="#">Eletrônicos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <article class="art1">
+      <h1>Título da postagem 1</h1>
+      <h2>postado 20 março 2022</h2>
+      <img src="{{url_for('static', filename='assets/fundo1.jpg')}}" alt="café">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste repudiandae illo eum fugit possimus voluptates nostrum voluptate ab! Provident cupiditate architecto error commodi vitae voluptate placeat minima, dolore esse recusandae!</p>
+      <a href="#">Ler mais..</a>
+    </article>
+
+    <article class="art2">
+      <h1>Título da postagem 2</h1>
+      <h2>postado 10 março 2022</h2>
+      <img src="{{url_for('static', filename='assets/fundo2.jpg')}}" alt="café">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste repudiandae illo eum fugit possimus voluptates nostrum voluptate ab! Provident cupiditate architecto error commodi vitae voluptate placeat minima, dolore esse recusandae!</p>
+      <a href="#">Ler mais..</a>
+    </article>
+
+    <div>
+      <article class="art3">
+        <h2>Postagens recentes</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="#" class="ler1">Ler mais..</a>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <a href="#">Ler mais..</a>
+      </article>
+
+      <article class="art4">
+        <h2>Categorias</h2>
+        <ul>
+          <li><a href="#">Jogos</a></li>
+          <li><a href="#">Celulares</a></li>
+          <li><a href="#">Informática</a></li>
+          <li><a href="#">Eletrônicos</a></li>
+        </ul>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <p>Todos os direitos reservados.</p>
+  </footer>
+</body>
+
+</html>
